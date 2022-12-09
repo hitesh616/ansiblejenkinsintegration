@@ -1,0 +1,17 @@
+---
+  - name: "create directory on node"
+    hosts: localhost
+#    become_method: sudo
+#    become_user: root
+#    become: true
+    tasks:
+    - name: "printing message "
+      become: yes
+      debug:
+        msg: "helloooooooooooooooooooo"
+
+    - name: "creating directory on node "
+      become: yes
+      file:
+        path: "/home/hitesh/createdbyjenkins"
+        state: directory
