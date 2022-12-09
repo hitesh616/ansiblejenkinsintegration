@@ -1,0 +1,10 @@
+---
+  - name: "create directory on node"
+    hosts: inventory
+    remote_user: ubuntu
+    tasks:
+      - name: "creatin directory on node"
+        become: yes
+        file:
+          path: /home/ubuntu/createdbyjenkins
+          state: directory
