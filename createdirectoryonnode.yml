@@ -1,6 +1,6 @@
 ---
   - name: "create directory on node"
-    hosts: inventory
+    hosts: ansibletry
     remote_user: ubuntu
     tasks:
       - name: "creatin directory on node"
