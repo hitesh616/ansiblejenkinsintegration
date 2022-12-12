@@ -6,5 +6,5 @@
       - name: "creatin directory on node"
         become: yes
         file:
-          path: /home/ubuntu/createdbyjenkins
+          path: "/home/ubuntu/{{directoryname}}"
           state: directory
