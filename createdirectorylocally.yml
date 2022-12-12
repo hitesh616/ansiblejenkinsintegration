@@ -13,5 +13,5 @@
     - name: "creating directory on node "
       become: yes
       file:
-        path: "/home/hitesh/createdbyjenkins"
+        path: "/home/guru/createdbyjenkins"
         state: directory
