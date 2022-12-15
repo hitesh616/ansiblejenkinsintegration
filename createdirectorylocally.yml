@@ -6,12 +6,10 @@
 #    become: true
     tasks:
     - name: "printing message "
-      become: yes
       debug:
         msg: "helloooooooooooooooooooo"
 
     - name: "creating directory on node "
-      become: yes
       file:
         path: "/home/guru/createdbyusermanually"
         state: directory
