@@ -1,4 +1,0 @@
----
-- name: print name
-  debug: 
-    msg: "hello {{ name }}"
