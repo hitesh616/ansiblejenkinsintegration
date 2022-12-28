@@ -1,4 +1,7 @@
 ---
-  - name: printing name
-    debug:
-      msg: hello hitesh
+- name: printing name
+  hosts: localhost
+  tasks:
+  - debug:
+      msg: helllo hitesh
+
